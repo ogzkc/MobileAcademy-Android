@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "leafy-glyph-797",
+    "project_number": "681076471975",
+    "name": "API Project"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681076471975:android:4dc432e71f6bd57f",
+        "client_id": "android:com.kc.mobileacademy",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.kc.mobileacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681076471975-thl4p5vhov07d83vn01fm4i1dgrcq738.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kc.mobileacademy",
+            "certificate_hash": "813CDE12FA9A8E0792D30EB3F4B8583B417A283F"
+          }
+        },
+        {
+          "client_id": "681076471975-5m0ci4rq9dugbodmr6dud9ico4qbs52d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

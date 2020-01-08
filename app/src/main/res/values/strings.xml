@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Mobile Academy</string>
+
+    <string name="register_activity_title">Register with Email</string>
+
+    <string name="menu_store">Store</string>
+    <string name="menu_library">Library</string>
+    <string name="menu_profile">Profile</string>
+
+    <!--DocumentDetailFragment-->
+    <string name="documentdetail_preview">Preview</string>
+    <string name="documentdetail_addtolibrary">Add to Library</string>
+    <string name="documentdetail_tableofcontents">Table of Contents</string>
+    <string name="documentdetail_description">Description</string>
+
+
+    <string name="doubletap_information">Double Tap to Hide/Show Navigational buttons!</string>
+
+    <string name="progressview_youcancancel">You can cancel downloading by tapping below button.</string>
+
+    <string name="document_page_temp">This is the page where you left.</string>
+
+
+    <string name="login_succesfull">You are logged in succesfully</string>
+    <string name="download_canceled">Download is canceled.</string>
+    <string name="empty"></string>
+
+
+    <string name="log_out_button">Log Out</string>
+
+    <string name="send_feedback_title">Send Feedback</string>
+    <string name="enter_feedback">Enter your feedback..</string>
+    <string name="feedback_important">Your feedbacks are important for us.</string>
+    <string name="thanks_feedback">Thank you for your feedback.</string>
+
+    <string name="title_choose_page">Go to page ..</string>
+    <string name="close">Close</string>
+
+    <string name="no_internet_no_download">You did not download this document before.</string>
+    <string name="no_internet_docdetail_not_opening">You can only read your downloaded documents when there is no internet connection.</string>
+    <string name="no_internet_library_opening">There is no internet connection, you can only access your library.</string>
+    <string name="offline_usage">Offline Mode</string>
+
+    <string name="showcase_page">You can go any page by tapping here.</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+
+    <string name="email_cannotbe_empty">Email cannot be empty.</string>
+    <string name="loading">Loading</string>
+    <string name="oopss">Oops...</string>
+    <string name="error_text_dialog">There went something wrong!\nWe are working on it.</string>
+    <string name="ok_button">OK</string>
+    <string name="error_text_toast">There went something wrong!Sorry about that.</string>
+    <string name="added_to_library_toast">Document has been added to your library!</string>
+
+    <!--status code: 203-->
+    <string name="banned_from_system_message">You are banned from the Mobile Academy.If you think there is a mistake please contact with us from mobileacademycontact@gmail.com</string>
+    <string name="banned_title">Banned</string>
+
+    <!--status code: 202-->
+    <string name="account_not_activated">Your account has not been activated.Activation link will be sent to your email adress again.</string>
+    <string name="account_not_activated_send_email">Send!</string>
+    <string name="account_not_activated_title">Not Activated</string>
+
+    <!--status code:302-->
+    <string name="account_has_been_created">Your account has been created succesfully.Activation link has been sent to your email adress.</string>
+    <string name="account_has_been_Created_title">Welcome!</string>
+
+    <string name="account_create_used_email_adress">Email adress is used for register before.Please use a different email adress.</string>
+    <string name="account_create_used_email_adress_title">Email Adress?</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string name="no_internet_conn">There is no internet connection, please activate your internet connection.</string>
+
+    <string name="button_register_with_email">First Time User</string>
+    <string name="button_login">Log in with Email</string>
+    <string name="login_with_google">Log in with Google+</string>
+
+
+    <string name="email_isnot_valid">Email Adress is not valid</string>
+    <string name="passwords_are_not_same">Passwords are not match</string>
+    <string name="password_too_short">Password is too short, it must be 4 characters at least</string>
+
+    <string name="button_register">Register</string>
+    <string name="button_updateprofile">Update Profile</string>
+
+
+    <string name="comment_hint">Enter your comment</string>
+
+    <string name="action_sign_in_short">Log in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">Email adress or password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing emailcompletions."</string>
+
+    <string name="register_name">Name</string>
+    <string name="register_surname">Surname</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Password</string>
+    <string name="register_password_repeat">Password (Repeat)</string>
+    <string name="register_school">School</string>
+    <string name="register_gender">Gender</string>
+    <string name="register_male">Male</string>
+    <string name="register_female">Female</string>
+    <string name="edit_nickname">Nickname (for comments)</string>
+
+    <string name="done_title">Done!</string>
+    <string name="editprofile_succes">Your profile has been updated.</string>
+    <string name="editprofile_error">You cannot login please contact with us or log out then login again.</string>
+
+    <string name="choose_departments">Select Departments</string>
+    <string name="choose_all">Select All</string>
+    <string name="choose_button">Choose</string>
+
+    <string-array name="departments">
+        <item>Mathematics</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Biology</item>
+        <item>Computer Engineering</item>
+    </string-array>
+
+    <string name="comments_error">Comments cannot be loaded.</string>
+
+    <string name="comment_cannot_send">Your comment couldn\'t be sent, please try again later.</string>
+    <string name="comment_cannot_send_2minutes">You can\'t send comment before 2 minutes.</string>
+    <string name="comment_cannot_be_short">Your comment cannot be shorter than 3 characters.</string>
+
+    <string name="button_inlibrary">In Library</string>
+    <string name="button_error">Error</string>
+    <string name="button_addtolibrary">Add To Library</string>
+
+    <string name="button_read">Read</string>
+    <string name="button_download">Download</string>
+
+    <string name="please_wait">Please Wait</string>
+    <string name="signing_in">Signing In</string>
+
+    <string name="loading_document">Loading Document</string>
+    <string name="loading_pleasewait">Please Wait</string>
+
+    <string name="update_now_button">Update Now</string>
+    <string name="later_update_button">Later</string>
+
+    <string name="play_market_notreacheable">Play Store cannot found.</string>
+
+
+    <string name="are_you_sure_download">Are you sure about download?</string>
+    <string name="size_of_file">Size of File: </string>
+    <string name="download_now">Download Now!</string>
+
+<string name="download_background">Download will be continued in background.</string>
+
+    <string name="facebook_app_id">931004236983463</string>
+
+    <string name="service_pass">boMa2015**_!</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

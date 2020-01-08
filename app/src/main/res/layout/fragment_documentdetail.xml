@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+    <RelativeLayout
+        android:id="@+id/relative_documentdetail"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+
+        <View
+            android:id="@+id/topline_documentdetailName"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@color/document_view_seperator_line_color"></View>
+
+        <com.kc.WidgetKC.TextViewMed
+            android:id="@+id/documentdetail_tvDocName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topline_documentdetailName"
+            android:layout_marginTop="@dimen/docViewFragment_toplineMargin"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+
+            android:text="Differential Equations Lecture Notes"
+            android:textColor="#000000"
+
+            android:textSize="16sp" />
+
+        <com.kc.WidgetKC.TextViewBold
+            android:id="@+id/documentdetail_tvPublisherName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/documentdetail_tvDocName"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:text="by Emre Sermutlu"
+            android:textColor="#000000"
+
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/bottomline_documentdetailName"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/documentdetail_tvPublisherName"
+            android:layout_marginTop="@dimen/docViewFragment_toplineMargin"
+            android:background="@color/document_view_seperator_line_color"></View>
+
+        <com.kc.WidgetKC.TextViewBold
+            android:id="@+id/documentdetail_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bottomline_documentdetailName"
+            android:layout_marginTop="@dimen/docViewFragment_toplineMargin"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:text="@string/documentdetail_preview"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/documentdetail_pdflayout"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/documentdetail_pre"
+            android:layout_marginTop="@dimen/docViewFragment_toplineMargin">
+
+            <com.joanzapata.pdfview.PDFView
+                android:id="@+id/documentview_previewPDF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+
+            <Button
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:id="@+id/documentdetail_nextpage"
+                android:background="@drawable/ic_nextpage"
+                android:alpha="0.6"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+            <Button
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:id="@+id/documentdetail_prevpage"
+                android:background="@drawable/ic_previouspage"
+                android:alpha="0.6"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/bottomline_documentdetail_preview"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/documentdetail_pdflayout"
+            android:layout_marginTop="@dimen/docViewFragment_toplineMargin"
+            android:background="@color/document_view_seperator_line_color"></View>
+
+        <com.kc.WidgetKC.TextViewBold
+            android:id="@+id/documentdetail_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bottomline_documentdetail_preview"
+            android:layout_marginTop="@dimen/docViewFragment_toplineMargin"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:text="@string/documentdetail_description"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <com.kc.WidgetKC.TextViewMed
+            android:id="@+id/documentdetail_descriptiontv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/documentdetail_desc"
+            android:layout_above="@+id/bottomline_documentdetail_desc"
+            android:layout_marginTop="@dimen/docViewFragment_toplineMargin"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non lorem mattis, laoreet mi faucibus, mollis neque."
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/bottomline_documentdetail_desc"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_above="@+id/documentdetail_buttonTableOfContent"
+            android:layout_marginBottom="@dimen/docViewFragment_toplineMargin"
+            android:background="@color/document_view_seperator_line_color"></View>
+
+
+        <com.kc.WidgetKC.ButtonMedType
+            android:id="@+id/documentdetail_buttonTableOfContent"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_above="@+id/documentdetail_buttonAddToLibrary"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/tablecont_button_background"
+            android:gravity="center"
+            android:text="@string/documentdetail_tableofcontents"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+
+            android:textColor="@color/mobile_academy_blue"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/documentdetail_buttonAddToLibrary"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginRight="6dp"
+
+            android:background="@drawable/plus_button_background" />
+
+        <Button
+            android:id="@+id/documentdetail_buttonComment"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignBottom="@+id/documentdetail_buttonAddToLibrary"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/documentdetail_buttonAddToLibrary"
+            android:background="@drawable/comment_button_background" />
+
+        <Button
+            android:id="@+id/documentdetail_button_like"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_above="@+id/documentdetail_button_dislike"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/ic_like" />
+
+        <Button
+            android:id="@+id/documentdetail_button_dislike"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/ic_dislike" />
+
+        <com.kc.WidgetKC.TextViewMed
+            android:id="@+id/documentdetail_tv_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/documentdetail_button_like"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/documentdetail_button_like"
+            android:text="12 Points"
+            android:textSize="17sp" />
+    </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:padding="3dp">
+
+    <ImageView
+        android:id="@+id/listItemLibrary_ivLogo"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="2dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_maths" />
+
+    <TextView
+        android:id="@+id/listItemLibrary_tvDocName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/listItemLibrary_ivLogo"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_toLeftOf="@+id/listItemLibrary_ivRightArrow"
+        android:text="Differential Equations Lecture Notes"
+        android:textColor="#000000"
+        android:textSize="16sp"
+
+
+        />
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/listItemLibrary_buttonDownloadOpen"-->
+        <!--android:layout_width="32dp"-->
+        <!--android:layout_height="32dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="6dp"-->
+        <!--android:layout_toLeftOf="@+id/listItemLibrary_ivRightArrow"-->
+        <!--android:background="@drawable/download_button_background"-->
+        <!--android:focusable="false"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textSize="14sp"-->
+
+        <!--/>-->
+
+    <!--<com.dd.CircularProgressButton-->
+        <!--android:id="@+id/listItemLibrary_buttonDownloadOpen"-->
+        <!--android:layout_width="140dp"-->
+        <!--android:layout_height="37dp"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:textAllCaps="false"-->
+        <!--app:cpb_cornerRadius="6dp"-->
+        <!--app:cpb_textComplete="@string/button_read"-->
+        <!--app:cpb_textError="@string/button_error"-->
+        <!--app:cpb_textIdle="@string/button_download" />-->
+<com.kc.WidgetKC.ButtonBoldType
+    android:id="@+id/listItemLibrary_buttonDownloadOpen"
+    android:background="@drawable/previewlook_button_background"
+
+    android:layout_width="110dp"
+    android:layout_height="36dp"
+    android:text="Read"
+    android:drawableLeft="@drawable/ic_book2"
+    android:textAllCaps="false"
+    android:textSize="16sp"
+    android:layout_marginBottom="3dp"
+    android:paddingRight="12dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginRight="7dp"/>
+
+    <TextView
+        android:id="@+id/listItemLibrary_tvPublisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toLeftOf="@id/listItemLibrary_buttonDownloadOpen"
+        android:layout_toRightOf="@+id/listItemLibrary_ivLogo"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Emre Sermutlu"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/listItemLibrary_ivRightArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/ic_rightarrow" />
+
+</RelativeLayout>

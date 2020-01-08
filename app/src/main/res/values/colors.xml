@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#305784</color>
+    <color name="colorPrimaryDark">#5A9CE7</color>
+    <color name="colorAccent">#D50000</color>
+
+    <color name="mobile_academy_blue_dark">#002431</color>
+    <color name="mobile_academy_blue">#005a7c</color>
+    <color name="mobile_academy_green">#7FC24F</color>
+
+
+    <color name="guillotine_background">#444153</color>
+    <color name="guillotine_background_dark">#383547</color>
+    <color name="selected_item_color">#30d1d5</color>
+
+
+    <color name="document_view_seperator_line_color">#606060</color>
+
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+
+</resources>

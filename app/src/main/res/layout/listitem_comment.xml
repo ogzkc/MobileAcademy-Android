@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="94dp"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/commentitem_imageview"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+         />
+
+    <com.kc.WidgetKC.EmojiTextViewMed
+        android:id="@+id/commentitem_tvComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/commentitem_tvName"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/commentitem_imageview"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:text="Lorem ipsum dolor sit amet, meliore deserunt consectetuer ex vim, no eam ludus "
+        android:textSize="13sp" />
+
+    <com.kc.WidgetKC.TextViewBold
+        android:id="@+id/commentitem_tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/commentitem_imageview"
+        android:text="Oğuz Küçükcanbaz"
+        android:textSize="14sp" />
+
+</RelativeLayout>
